@@ -48,6 +48,7 @@ the standard graphics controls one expects.
 %doc %{_texmfdistdir}/doc/generic/pst-knot/README
 %doc %{_texmfdistdir}/doc/generic/pst-knot/pst-knot-doc.pdf
 %doc %{_texmfdistdir}/doc/generic/pst-knot/pst-knot-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +59,5 @@ the standard graphics controls one expects.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
