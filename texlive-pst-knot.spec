@@ -1,12 +1,12 @@
 # revision 16033
 # category Package
 # catalog-ctan /graphics/pstricks/contrib/pst-knot
-# catalog-date 2009-11-14 08:46:33 +0100
+# catalog-date 2014-02-26 23:03:13 +0100
 # catalog-license lppl
 # catalog-version 0.2
 Name:		texlive-pst-knot
 Version:	0.2
-Release:	7
+Release:	8
 Summary:	PSTricks package for displaying knots
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-knot
@@ -49,17 +49,3 @@ the standard graphics controls one expects.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2-2
-+ Revision: 755318
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.2-1
-+ Revision: 719362
-- texlive-pst-knot
-- texlive-pst-knot
-- texlive-pst-knot
-- texlive-pst-knot
-
