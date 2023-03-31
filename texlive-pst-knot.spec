@@ -1,6 +1,6 @@
 Name:		texlive-pst-knot
 Version:	16033
-Release:	1
+Release:	2
 Summary:	PSTricks package for displaying knots
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-knot
