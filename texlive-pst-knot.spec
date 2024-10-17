@@ -3,7 +3,7 @@ Version:	16033
 Release:	2
 Summary:	PSTricks package for displaying knots
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-knot
+URL:		https://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-knot
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-knot.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-knot.doc.r%{version}.tar.xz
